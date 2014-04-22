@@ -6,11 +6,16 @@ WikiDave
 
 In the LocalProperties.php add the following entry:
 
+<pre>
 # Comment Extension
+
 require_once("$IP/extensions/Comment/comment.php");
+</pre>
 
 More info about Tag-Extensions can be found:
+
 http://www.mediawiki.org/wiki/Manual:Tag_extensions/Example
+
 
 
 In the Articles you want to add commenting too. Just add the tag <comment>.
